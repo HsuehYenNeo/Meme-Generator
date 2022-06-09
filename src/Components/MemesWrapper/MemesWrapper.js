@@ -9,7 +9,6 @@ function MemesWrapper() {
 
   return (
     <div className="MemesSection">
-      <div className="Title">Choose Popular Memes</div>
       <div className="MemeCollection">
         <div className="MemesWrapper">
           {memes.length >= 90 ? (

@@ -25,7 +25,11 @@
   border-radius: 5px;
 
 }
-
+.Main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
 .ButtonWrapper {
   display: flex;
   flex-direction: row;
@@ -38,7 +42,6 @@
     align-items: center;
     margin-top: 0px;
   } 
-
   .Panel {
     height: 380px;
   }

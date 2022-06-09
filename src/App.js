@@ -14,7 +14,9 @@ function App() {
     <div className="App">
       <Header />
       <div className="Main">
+        
         <div className="PanelsWrapper">
+          <MemesWrapper />
           <div className="Panel">
             <PreviewWrapper />
           </div>
@@ -23,7 +25,7 @@ function App() {
             <Buttons />
           </div>
         </div>
-        <MemesWrapper />
+
       </div>
       <Footer />
     </div>
